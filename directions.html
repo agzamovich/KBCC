@@ -234,7 +234,7 @@
 			</div>
 			<div class="container">
 
-				<section id="car" class="text-center">
+				<section class="text-center">
 
 					<!-- <h2 class="mb-4">By Vehicle</h2>
 					<div class=" row d-flex justify-content-center mb-4">
@@ -244,9 +244,9 @@
 					</div> -->
 					<div class="row">
 						<div class="col-md-4 mb-4">
-							<i class="fas fa-car"></i>
+							<a data-toggle="collapse" href="#car" role="button" aria-expanded="false" aria-controls="collapseExample"><i class="fas fa-car"></i></a>
 							<h4 class="my-4">By Car</h4>
-							<p class="col-sm text-capitalized">
+							<div class="collapse" id="car"><p class="col-sm card">
 								<h6>From Long Island</h6>
 
 								Take the Southern State Parkway to the Belt Parkway and follow the directions for Brooklyn from the East.<br><br>
@@ -263,12 +263,13 @@
 
 								Take the Belt Parkway Eastbound to Exit 8 Coney Island Avenue. Turn right at Guider Avenue and continue to traffic light. Turn right onto E. 12th Street. At traffic light turn left onto Neptune Avenue. Turn right at traffic light onto Cass Place and proceed to second light. Turn right onto West End Ave. At second light make a left onto Oriental Blvd and go straight to the main gate of the college.
 							
-							</p>
+							</p></div>
+
 						</div>
 						<div class="col-md-4 mb-4">
-							<i class="fas fa-subway"></i>
+							<a href="#bysubway" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="bysubway"><i class="fas fa-subway"></i></a>
 							<h4 class="my-4">By Subway</h4>
-							<p class="col-sm">
+							<span class="collapse"  id="bysubway"><p class="col-sm card">
 								<h6>B Line or Q Line</h6>
 
 								Take the B or Q to the Sheepshead Bay Station, then transfer to the Eastbound B49 Bus to KCC or the Brighton Beach Station, then transfer to the Eastbound B1 Bus to KCC.<br><br>
@@ -289,13 +290,13 @@
 								Take the 2, 3, 4 or 5 line to the Franklin Avenue Station, transfer to the S Line to Prospect Park Station, transfer to the B or Q to the Brighton Beach Station, then transfer to the Eastbound B1 Bus to KCC.<br><br>
 								<i>Free shuttle bus service between Brighton Beach and Coney Island Stations and campus.</i>
 							
-							</p>
+							</p></span>
 							
 						</div>
 						<div class="col-md-4 mb-4">
-							<i class="fas fa-bus"></i>
+							<a href="#bybus" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="bybus"><i class="fas fa-bus"></i></a>
 							<h4 class="my-4">By Bus</h4>
-							<p class="col-sm">								
+							<span class="collapse" id="bybus"><p class="col-sm card">								
 
 								<!-- <i>Check our website for additional information: www.kbcc.cuny.edu</i><br><br> -->
 
@@ -305,7 +306,7 @@
 								
 								<i>Parking: On-campus parking is $22 (tax incl.) per semester and is available on a first-come, first-served basis. Please have your license plate number ready when applying for your permit.</i>
 							
-							</p>
+							</p></span>
 							
 						</div>
 						
